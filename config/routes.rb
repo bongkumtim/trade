@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   get "/member" => "home#member"
+  get "/wonder" => "home#wonder"
+  get "/batman" => "home#batman"
 end
