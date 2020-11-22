@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get "/member" => "home#member"
   get "/wonder" => "home#wonder"
   get "/batman" => "home#batman"
+  get "/promo" => "home#promo"
+  
 end

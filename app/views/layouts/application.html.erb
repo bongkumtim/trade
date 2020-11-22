@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Trade</title>
+    <title>TradeWiz</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -16,7 +16,7 @@
 
   <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <%= link_to "Trade Stream", root_path ,class: "btn btn-primary" %>
+  <%= link_to "TradeWiz", root_path ,class: "btn btn-primary" %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,11 +30,15 @@
         </div>
       </li>
 
+      <li class="nav-item active">
+        <div class="nav-link">
+          <%= link_to "SIGN UP", wonder_path, class: "btn btn-primary"%>
+        </div>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+  
+      <%= link_to "SIGN UP", wonder_path, class: "btn btn-primary "%>
+  
   </div>
 </nav>
 
